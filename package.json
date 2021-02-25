@@ -1,0 +1,22 @@
+{
+    "name": "define-rollup-config",
+    "version": "1.0.0",
+    "main": "drc.js",
+    "license": "MIT",
+    "author": {
+        "email": "kyaruary@gmail.com",
+        "name": "kyaruary"
+    },
+    "repository": {
+        "url": "https://github.com/kyaruary/define-rollup-config.git"
+    },
+    "devDependencies": {
+        "cz-conventional-changelog": "^3.3.0",
+        "rollup": "^2.39.1"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}
